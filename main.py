@@ -1,2 +1,7 @@
+import fire
+
+def hello(name="earth"):
+    return "hello %s!" %name
+
 if __name__=="__main__":
-    print("hello world this from my repo")
+    fire.Fire(hello)
